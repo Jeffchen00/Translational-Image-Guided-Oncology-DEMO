@@ -1,0 +1,9 @@
+joblib
+numpy
+pandas
+scikit-learn
+pynrrd
+PyRadiomics
+matplotlib
+seaborn
+statsmodels
