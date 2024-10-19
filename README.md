@@ -1,4 +1,4 @@
-# Translational Image-Guided Oncology: Coding Challenge
+# Translational Image-Guided Oncology - Demo
 
 ## Project Overview
 
