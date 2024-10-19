@@ -103,28 +103,6 @@ During training, the following features were selected and saved in `selected_fea
 - original_glszm_ZoneVariance
 - original_ngtdm_Complexity
 
-## The Task
-
-The goal of the coding challenge is for you to __develop a basic machine learning model__ that takes as inputs two `.nrrd` files (`.nrrd` is a common file format in medical image computation, see [some pointers](#some-pointers)) and generates as output a single label.
-
-- The first _input_ NRRD-file is a 15x15 pixel area of an organ, isolated from an MRI sequence. 
-- The second _input_ NRRD-file is a 15x15 binary mask, specifying the region of interest (ROI) in the first file.
-- The _output_ should be the name of the organ to which the first file belonged.
-
-Your final submission should contain all the code you used to train your model, your final model, any code you used to generate visualizations. Moreover, please include an executable script/ function that loads your final model and makes predictions and reports accuracy for any two directories containing, respectively, the first and second input `.nrrd` files, as described above. 
-
-In total, we intend for you to spend __no more than about 4 hours__ on the coding challenge.
-
-Some other considerations:
-
-- Start by cloning this repository. 
-- When you are done, push the code and the results of your work. 
-- The coding challenge should be completed using Python 3. You can use Jupyter Notebooks or standard Python scripts.
-- We encourage the use of common machine learning packages, e.g., [scikit-learn](https://scikit-learn.org/stable/), [keras](https://keras.io/) or [pytorch](https://pytorch.org/). 
-- Please include a `requirements.txt` in your submission, so that we can reproduce your code.
-- Should you want to make use of a GPU-based machine learning method, you are encouraged to do so. For instance, Google [Colab](https://pytorch.org/) offers free GPU resources.
- 
-
 ## The Data
 
 The data is part of this repository and can be found in `./data`. It is organized as follows:
