@@ -131,5 +131,5 @@ The file name also contains the label of the target organ, i.e., the intended ou
 - An easy way to visualize images and masks is with [ITK-SNAP](http://www.itksnap.org/pmwiki/pmwiki.php).
 
 ## Acknowledgements
-This challenge was prepared by `jacob.murray@uk-essen.de`
+This data was prepared by `jacob.murray@uk-essen.de`
 
